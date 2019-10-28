@@ -14,11 +14,11 @@ fun main() {
     println("age is $age")
 
 
-//    println("Enter your names")
-//    var names = readLine()/*John Musa*/
-//    var splitted = names?.split(" ")
-//    var firstName = splitted?.get(0) ?: "Guest"/*? null check*/
-//    var lastName = splitted?.get(1) ?: "Guest"/*?:elvis alternative*/
-//    print("your first name is $firstName and your surname is $lastName")
+    println("Enter your names")
+    var names = readLine()/*John Musa*/
+    var splitted = names?.split(" ")
+    var firstName = splitted?.get(0) ?: "Guest"/*? null check*/
+    var lastName = splitted?.get(1) ?: "Guest"/*?:elvis alternative*/
+    print("your first name is $firstName and your surname is $lastName")
 
 }
