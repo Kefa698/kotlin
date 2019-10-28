@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4c7359-d6ec-4943-b101-6c648dcddfda" name="Default Changelist" comment="" />
+    <list default="true" id="4e4c7359-d6ec-4943-b101-6c648dcddfda" name="Default Changelist" comment="functions">
+      <change afterPath="$PROJECT_DIR$/src/functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nulls.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_intro/ArraysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_intro/ArraysKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_intro/FizzbuzzKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_intro/FizzbuzzKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_intro/LoopsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_intro/LoopsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_intro/META-INF/kotlin_intro.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_intro/META-INF/kotlin_intro.kotlin_module" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strings.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -89,6 +97,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="16" selection-start-column="5" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nulls.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -111,8 +137,10 @@
         <option value="$PROJECT_DIR$/src/conditions.kt" />
         <option value="$PROJECT_DIR$/src/loopes.kt" />
         <option value="$PROJECT_DIR$/src/loops.kt" />
-        <option value="$PROJECT_DIR$/src/fizzbuzz.kt" />
         <option value="$PROJECT_DIR$/src/arrays.kt" />
+        <option value="$PROJECT_DIR$/src/fizzbuzz.kt" />
+        <option value="$PROJECT_DIR$/src/functions.kt" />
+        <option value="$PROJECT_DIR$/src/nulls.kt" />
       </list>
     </option>
   </component>
@@ -131,7 +159,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,12 +175,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571993155002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572247571959" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -172,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.FizzbuzzKt">
+  <component name="RunManager" selected="Kotlin.FunctionsKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_intro" />
       <option name="VM_PARAMETERS" />
@@ -212,6 +240,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_intro" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoopsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_intro" />
       <option name="VM_PARAMETERS" />
@@ -225,26 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_intro" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="StringsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.FizzbuzzKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.LoopsKt" />
         <item itemvalue="Kotlin.ConditionsKt" />
-        <item itemvalue="Kotlin.StringsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +289,7 @@
       <workItem from="1571899652648" duration="8631000" />
       <workItem from="1571983944802" duration="7860000" />
       <workItem from="1572072632583" duration="2034000" />
+      <workItem from="1572244419236" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="variables">
       <created>1571907724327</created>
@@ -329,12 +358,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18525000" />
+    <option name="totallyTimeSpent" value="21670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="997" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.25769854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.2617504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +373,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50085473" side_tool="true" weight="0.24959481" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32875144" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32875144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32875144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,7 +406,8 @@
     <MESSAGE value="fizzbuzz" />
     <MESSAGE value="loops" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -401,6 +432,13 @@
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -432,10 +470,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strings.kt">
+    <entry file="file://$PROJECT_DIR$/src/nulls.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="16" selection-start-column="5" selection-end-line="22" />
         </state>
       </provider>
     </entry>
